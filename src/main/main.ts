@@ -3,12 +3,17 @@ import {join} from 'path';
 
 function createWindow () {
   const mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    minWidth: 1280,
+    minHeight: 720,
+    width: 1400,
+    height: 768,
+    title: 'Ray Info',
+    maximizable: true,
     webPreferences: {
       preload: join(__dirname, 'preload.js'),
       nodeIntegration: false,
       contextIsolation: true,
+      webviewTag: true,
     }
   });
 
