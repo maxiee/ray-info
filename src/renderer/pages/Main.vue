@@ -12,21 +12,17 @@ export default {
 };
 </script>
 <template>
-    <splitpanes style="height: 400px">
-        <pane min-size="20">1</pane>
-        <pane>
-            <splitpanes horizontal>
-            <pane>2</pane>
-            <pane>3</pane>
-            <pane>4</pane>
-            </splitpanes>
-        </pane>
-        <pane>5</pane>
+    <splitpanes id="colums">
+        <pane min-size="20">sidebar</pane>
+        <pane>article-list</pane>
+        <pane>detail</pane>
     </splitpanes>
-    
 </template>
 
 <style>
+#colums {
+    height: 100%;
+}
 .splitpanes__pane {
   box-shadow: 0 0 3px rgba(0, 0, 0, .2) inset;
   justify-content: center;

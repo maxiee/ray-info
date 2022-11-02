@@ -7,3 +7,14 @@ window.electron.ipcRenderer.send('message', 'Hello from App.vue!');
     <router-view />
   </div>
 </template>
+
+<style>
+#root, body, html {
+  height: 99%;
+}
+#app {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+</style>
