@@ -12,6 +12,6 @@
       "lib": ["esnext", "dom"],
       "types": ["vite/client"]
     },
-    "include": ["./**/*.ts", "./**/*.d.ts", "./**/*.tsx", "./**/*.vue", "main.js", "main.js"],
+    "include": ["./**/*.ts", "./**/*.d.ts", "./**/*.tsx", "./**/*.vue", "main.ts", "main.js"],
   }
   

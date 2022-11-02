@@ -1,7 +1,8 @@
 <script lang="ts">
 import Hello from '../components/Hello.vue';
 import {Splitpanes, Pane} from 'splitpanes';
-import 'splitpanes/dist/splitpanes.css'
+import 'splitpanes/dist/splitpanes.css';
+import 'element-plus/dist/index.css';
 
 export default {
     components: {
@@ -13,7 +14,9 @@ export default {
 </script>
 <template>
     <splitpanes id="colums">
-        <pane min-size="20">sidebar</pane>
+        <pane min-size="20">
+            <column-category/>
+        </pane>
         <pane>article-list</pane>
         <pane>detail</pane>
     </splitpanes>
