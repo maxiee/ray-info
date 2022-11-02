@@ -3,6 +3,7 @@ import ElementPlus from 'element-plus';
 import {createRouter, createWebHashHistory} from 'vue-router';
 import App from './App.vue';
 import Main from './pages/Main.vue';
+import store from './store';
 
 const app = createApp(App);
 
@@ -17,4 +18,5 @@ const router = createRouter({
 
 app.use(ElementPlus);
 app.use(router);
+app.use(store);
 app.mount('#app');
