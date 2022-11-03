@@ -6,7 +6,6 @@
 import {defineComponent, h} from 'vue';
 import {NMenu} from 'naive-ui';
 import type { MenuOption } from 'naive-ui';
-import { setgroups } from 'process';
 
 const menuOptions: MenuOption[] = [
   {
@@ -18,7 +17,7 @@ const menuOptions: MenuOption[] = [
     key: 'menu'
   },
 ]
-export default defineComponent({
+export default {
   components: {
     NMenu
   },
@@ -27,5 +26,5 @@ export default defineComponent({
       menuOptions
     }
   }
-});
+};
 </script>
