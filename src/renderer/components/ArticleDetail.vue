@@ -1,6 +1,9 @@
 <template>
     <pane min-size="45">
-        <h2>Article Detail</h2>
+        <div>
+            <h2>Article Detail</h2>
+            <article-toolbar/>
+        </div>
     </pane>
 
 </template>
