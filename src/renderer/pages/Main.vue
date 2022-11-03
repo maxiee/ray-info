@@ -8,6 +8,11 @@ export default {
         Splitpanes,
         Pane,
         Hello
+    },
+    mounted() {
+        this.$store.dispatch('initDB').then(async () => {
+            console.log('dispatched initDB');
+        })
     }
 };
 </script>

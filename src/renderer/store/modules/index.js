@@ -1,3 +1,5 @@
-const modules = {};
+import Database from "./Database"
 
-export default modules;
+export default {
+    Database 
+}

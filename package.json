@@ -16,6 +16,7 @@
     "url": "https://github.com/Deluze"
   },
   "devDependencies": {
+    "@types/lovefield": "^2.1.4",
     "@types/splitpanes": "^2.2.1",
     "@vitejs/plugin-vue": "^3.1.2",
     "@vue/cli": "^5.0.8",
@@ -29,6 +30,7 @@
     "vite": "^3.1.6"
   },
   "dependencies": {
+    "lovefield": "^2.1.12",
     "splitpanes": "^3.1.5",
     "vue": "^3.2.40",
     "vue-router": "4",
