@@ -17,7 +17,7 @@ export default {
             <column-category/>
         </pane>
         <pane>article-list</pane>
-        <pane>detail</pane>
+        <article-detail/>
     </splitpanes>
 </template>
 

@@ -4,7 +4,7 @@ import App from './App.vue';
 import Main from './pages/Main.vue';
 import store from './store';
 import ColumnCategory from './components/ColumnCategory.vue';
-import * as ElementPlusIconsVue from '@element-plus/icons-vue'
+import ArticleDetail from './components/ArticleDetail.vue';
 
 const app = createApp(App);
 
@@ -18,9 +18,7 @@ const router = createRouter({
 });
 
 app.component('ColumnCategory', ColumnCategory);
-for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
-    app.component(key, component)
-}
+app.component('ArticleDetail', ArticleDetail)
 
 app.use(router);
 app.use(store);
