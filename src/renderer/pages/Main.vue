@@ -2,7 +2,6 @@
 import Hello from '../components/Hello.vue';
 import {Splitpanes, Pane} from 'splitpanes';
 import 'splitpanes/dist/splitpanes.css';
-import 'element-plus/dist/index.css';
 
 export default {
     components: {

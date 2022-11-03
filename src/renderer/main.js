@@ -1,5 +1,4 @@
 import { createApp } from 'vue';
-import ElementPlus from 'element-plus';
 import {createRouter, createWebHashHistory} from 'vue-router';
 import App from './App.vue';
 import Main from './pages/Main.vue';
@@ -23,7 +22,6 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
     app.component(key, component)
 }
 
-app.use(ElementPlus);
 app.use(router);
 app.use(store);
 app.mount('#app');
